@@ -4,6 +4,10 @@ import sys
 import numpy as np
 from PIL import Image
 
+# This code is to transfer the selected samples of json files to images.
+# You can run the dataset_selection.py first and then this one.
+
+# Replace the directories with yours.
 read_directory = r"C:\Users\fangy\AppData\Local\Packages\CanonicalGroupLimited." \
                  r"UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\root\leaf\data\femnist\data\all_data_modified"
 write_directory = r"C:\Users\fangy\AppData\Local\Packages\CanonicalGroupLimited." \
