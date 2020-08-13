@@ -6,7 +6,7 @@ The code for personalized data generation using GAN, which is used GAN to genera
 
 The repo includes 4 folders:
 - CollaGAN: The code for CollaGAN, which is proposed in [CollaGAN : Collaborative GAN for Missing Image Data Imputation](https://arxiv.org/abs/1901.09764)
-- data: Including a custom PyTorch dataloader to load our FeMNMIST dataset
+- data: Including a custom PyTorch dataloader to load our FeMNIST dataset
 - data_preprocessing: Code for investigating and pre-processing the data
 - kmeans_image_generation: The main part of the code, which used kmeans to group user and use GAN to generate missing image for each cluster.
 
