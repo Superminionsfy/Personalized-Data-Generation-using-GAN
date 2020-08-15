@@ -26,7 +26,7 @@ After the dataset is ready, you could:
 - Use kmeans to do the clustering and generate new images for missing data
 
 And here are detailed steps to run experiments mentioned in our final report:
-1. Run `kmeans.ipynb` first to read the dataset, split images based on kmeans cluster and get user assignment. Run `kmeans.ipynb` for at least 2 target_class if you want to run the final image generation step.
+1. Run `kmeans.ipynb` first to read the dataset, split images based on kmeans cluster and get user assignment. Run `kmeans.ipynb` for at least 2 target_class (digit domain) if you want to run the final image generation step.
 2. Run `dcgan.ipynb` to train dcgan on each cluster
 3. Run `cluster_verification.ipynb` to verify the trained Generator and see if the generated images are still in the same cluster
 4. Run `image_generation.ipynb` to load trained Generator and generate new images for specified users.
